@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body { 
+    overflow-x: hidden; 
+}
+
+a {
+    color: #311E10;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 5%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.header {
+    padding: 1.8rem;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+}
+
+.header li {
+    margin: 0 1rem;
+}
+
+.header-social {
+    margin-left: 1rem;
+}
+
+.header .header-social li {
+    margin: 0 0.5rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.img-fluid {
+    margin: 40px 150px 0px 950px;
+    width: 30%;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.info .img-fluid {
+    height: 35rem;
+    object-fit: cover;
+}
+
+.info-content {
+    position: absolute;
+    right: 45%;
+    top: 15%;
+    width: 40%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.btn-main {
+    background: linear-gradient(to right bottom, #e54525, #f6921a);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 1rem 3rem;
+}
+
+.btn-container {
+    margin-top: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.section-heading {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.section-heading-container{
+    margin: 3rem 0;
+}
+
+.section-line {
+    width: 8rem;
+    height: 3px;
+    background-color: #e54525;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.social-proof {
+    background-color: #111;
+    color: #fff;
+}
+
+.main-s-p-number {
+    font-size: 2.5rem;
+}
+
+.s-p-detail i {
+    font-size: 2rem;
+}
+
+.s-p-detail p {
+    font-weight: 700;
+}
+
+.background-container {
+    background: linear-gradient(to right, #f6921a 50%, #e54525  50%);
+    margin-left: -5rem;
+    padding: 5rem 10rem;
+    transform: skew(20deg);
+    width: 120rem;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transform: skew(-20deg);
+}
+
+.about-grid article {
+    margin: 4rem;
+} 
